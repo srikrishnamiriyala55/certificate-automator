@@ -1,0 +1,18 @@
+.preview > img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.preview .preview-field {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.preview .preview-field > span {
+  display: block;
+  width: 100%;
+  flex: none;
+}
